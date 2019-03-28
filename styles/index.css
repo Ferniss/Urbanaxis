@@ -1,0 +1,47 @@
+/* ........name convention BEM.......*/
+
+/*........Block............*/
+.h1style{
+    font-family: Verdana;
+    font-size: 25px;
+    font-weight: normal;
+}
+.pstyle{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 315px; 
+    font-size: 12px;
+    height: 48px;
+}
+.start-button{
+    background: linear-gradient(to right,#4C26A0, #7B1FA2);
+    color: white;
+    border: #707070;
+    margin: 20px auto;
+    font-size: 15px;
+    display: grid;
+    justify-content: center;
+    align-self: center;
+}
+.background{
+    margin-top: 25%;
+    background-image: url(../assets/images/background-main.png);
+    background-color: #301545;
+}
+.img-container{
+    width: 108px;
+    height: 131px;
+    margin-left: 33%;
+}
+/*...........elements...............*/
+
+
+/*...........modyfier..................*/
+.h1style--center{
+    text-align: center;
+    color: white;
+    margin-bottom: 18%;
+}
+.start-button--white{
+    color: white;
+    text-decoration: none;
+}
